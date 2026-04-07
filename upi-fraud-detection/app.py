@@ -1,14 +1,15 @@
 import streamlit as st
 import pandas as pd
-import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+import pickle
 
-# Load files
-model = pickle.load(open("model.pkl", "rb"))
-columns = pickle.load(open("columns.pkl", "rb"))
-accuracy = pickle.load(open("accuracy.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+model = pickle.load(open(os.path.join(BASE_DIR, "model.pkl"), "rb"))
+columns = pickle.load(open(os.path.join(BASE_DIR, "columns.pkl"), "rb"))
+accuracy = pickle.load(open(os.path.join(BASE_DIR, "accuracy.pkl"), "rb"))
 # Page config
 st.set_page_config(page_title="UPI Fraud Detection", layout="wide")
 
