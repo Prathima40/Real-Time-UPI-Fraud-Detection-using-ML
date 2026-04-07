@@ -6,7 +6,7 @@ A machine learning-based system developed by **Yogitha Pulleti** to detect fraud
 
 ## 🚀 Live Demo
 
-👉 https://upi-fraud-detection-27f8zgrnsylnxs5mlbfm5y.streamlit.app/
+👉 https://ehdmmbbpeu657cbbxkadgh.streamlit.app/
 
 ---
 
