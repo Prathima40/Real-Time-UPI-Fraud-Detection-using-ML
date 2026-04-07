@@ -16,6 +16,7 @@ The system provides real-time predictions through an interactive Streamlit dashb
 📊 Fraud probability score
 ⚠️ Fraud alert system
 📈 Visual insights and summary metrics
+
 🛠️ Tech Stack
 Python
 Pandas, NumPy
@@ -23,12 +24,15 @@ Scikit-learn
 Imbalanced-learn (SMOTE)
 Streamlit
 Matplotlib, Seaborn
+
 ⚙️ How It Works
 Data preprocessing and feature engineering
 Handling imbalanced data using SMOTE
 Training using Random Forest classifier
 Model evaluation and accuracy calculation
 Deployment using Streamlit
+
+
 ▶️ How to Run Locally
 1. Clone the repository
    git clone https://github.com/Prathima40/Real-Time-UPI-Fraud-Detection.git
